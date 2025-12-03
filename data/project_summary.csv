@@ -1,0 +1,9 @@
+,Value
+Project,Customer Churn Prediction
+Dataset Size,7043
+Churn Rate,26.54%
+Best Model,Logistic Regression
+Model AUC,0.841
+High Risk Customers,354
+Expected ROI,264.4%
+Net Benefit,"$93,600"
