@@ -1,31 +1,31 @@
 # Customer Churn Prediction for Telecom Industry
 
-## 🎯 Project Overview
+##  Project Overview
 
 Built a machine learning model to predict customer churn with **85% accuracy (AUC)**, enabling proactive retention strategies that could save **$68,000 annually** with a **377% ROI**.
 
-## 📊 Key Results
+##  Key Results
 
 - **Model Performance**: 85.3% AUC Score
 - **Business Impact**: Identified 180 high-risk customers
 - **ROI**: 377% return on retention investment
 - **Catch Rate**: 75% of churners identified in high-risk segment
 
-## 🔍 Key Insights
+##  Key Insights
 
 1. **Tenure is Critical**: New customers (<12 months) have 3x higher churn rate
 2. **Contracts Work**: 2-year contracts reduce churn by 93% vs month-to-month
 3. **Service Bundling**: Customers with 5+ services churn 60% less
 4. **Pricing Paradox**: Churned customers pay $13 more/month on average
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**: pandas, numpy, scikit-learn, XGBoost
 - **Visualization**: matplotlib, seaborn
 - **Explainability**: SHAP
 - **ML Techniques**: Classification, Feature Engineering, Class Imbalance Handling
 
-## 📁 Project Structure
+##  Project Structure
 ```
 churn-prediction/
 ├── data/
@@ -46,7 +46,7 @@ churn-prediction/
 └── README.md
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository**
 ```bash
@@ -64,14 +64,14 @@ churn-prediction/
    jupyter notebook notebooks/churn_analysis.ipynb
 ```
 
-## 📈 Model Performance
+##  Model Performance
 
 | Model | ROC-AUC | Precision | Recall | F1-Score |
 |-------|---------|-----------|--------|----------|
 | Logistic Regression | 0.842 | 0.656 | 0.742 | 0.696 |
 | **XGBoost** | **0.853** | **0.672** | **0.758** | **0.712** |
 
-## 💼 Business Recommendations
+##  Business Recommendations
 
 ### Immediate Actions
 - Target 180 high-risk customers with contract upgrade offers
@@ -88,48 +88,5 @@ churn-prediction/
 - A/B test retention strategies by segment
 - Increase service bundling initiatives
 
-## 📸 Sample Visualizations
 
-![Tenure Distribution](images/01_tenure_distribution.png)
-![Model Comparison](images/08_model_comparison.png)
-![Feature Importance](images/09_feature_importance.png)
 
-## 🎓 What I Learned
-
-- End-to-end machine learning workflow
-- Handling imbalanced datasets with class weighting
-- Model interpretability using SHAP
-- Translating technical metrics into business value
-- Feature engineering for tabular data
-
-## 👤 Author
-
-**Your Name**
-- LinkedIn: [your-linkedin-url]
-- Email: youremail@example.com
-- Portfolio: [your-portfolio-url]
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-```
-
-3. **Save the file:**
-   - **File name:** `README.md`
-   - **Save location:** `churn-prediction/` (main folder)
-   - **Important:** Make sure it's `.md` not `.txt`
-
-**Your structure now:**
-```
-churn-prediction/
-├── data/
-│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   ├── high_risk_customers.csv
-│   └── project_summary.csv
-├── notebooks/
-│   └── churn_analysis.ipynb
-├── images/
-│   └── (12 images)
-├── models/
-│   └── (3 files)
-└── README.md  ← NEW!
